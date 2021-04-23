@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mada', sans-serif; 
+}
+/* cabecera */
+header{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-image: url(/img/header_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+       
+}
+ul li{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    width: 160px;
+    height: 40px;
+    margin: 2px;
+    margin-bottom: 40px;
+    background: #BFA317;
+    border-radius: 10px 10px 10px 10px;
+    font-size: .8rem;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: black
+}
+li:hover{
+    background: white;
+}
+
+/* Main*/
+main{
+    width: 100%;
+    background-color: #C1D4D9;
+    padding-bottom: 1rem;
+}
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: 'Merriweather', serif;
+    
+}
+.contenedorPrincipal{
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 1000px;
+}
+p{
+    padding-top: 1rem;
+}
+
+
+
+.contenedorCita{
+    width: 650px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+    background-color: #DAE8EB;
+    margin: 0 auto;
+    border-left: 7px solid #7D527A;
+    text-indent: 40px;
+    
+}
+.contenedorCita p{
+    font-size: 1.2rem;
+}
+.comillas{/* imagenes comillas como fondo¿? */
+    float: left;
+    width: 1.5em;
+    height: 1.5em;
+    background-size: 1.5em;
+    background-image: url(/img/comillas.svg);
+    background-repeat: no-repeat;
+    
+    
+}
+cite{
+    font-size: .8rem;
+}
+
+blockquote p{
+  line-height: 1.5rem; 
+    
+}
+.imagenUno {
+    float: left;
+    width: 360px;
+    height: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+    
+}
+.editarVideo{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}
+.editarVideo h2{
+    padding-top: 1em;
+    text-align: center;
+}
+.editarVideo span{
+    color: goldenrod;
+    display: block;
+    padding-left: 70px;
+    margin-top: 60px;
+   
+    
+}
+.editarVideo p{
+    padding: 40px;
+}
+.imagenVideo{
+    float: left;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+.contenedorVideo{
+    width: 100%;
+    background-color:#7D527A ;
+    padding-bottom: 1em;
+}
+
+.nuevo{
+    
+    padding-bottom: 40px;
+}
+.piePagina{
+    margin: 0 auto;
+    width:1000px ;
+    color: black;
+    background-color: white;
+    
+    
+}
+.piePagina p{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 1em;
+    
+}
+.piePagina a{
+    color: goldenrod;
+}
+.contenedorTabla{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;  
+}
+table{
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+td,th{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #BF8069; 
+    
+}
+caption{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #7D527A;
+    color: white;
+}
+th{
+    color: white;
+    
+   
+    
+}
+td span{
+    color: #2CA01C ;
+}
+
+tr:nth-child(1) > td{
+    background-color: #92A4A6;
+}
+tr:nth-child(2) > td{
+    background-color: #92A4A6;
+}
+
+/* formulario */
+.contenedorFormulario{
+   width: 1000px; 
+   background: #C1D4D9;
+   margin: auto;
+   padding: 4rem;
+   border-radius: 10px;
+   box-shadow: 1px 2px 3px black;
+}
+.formulario{
+    width: 100%;
+    background-color: #7D527A;
+    padding-bottom: 40px;
+    
+
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    max-width: 1000px;
+    
+    
+    
+}
+
+.formulario h2{
+    color: white;
+    text-align: center;
+    
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    margin: 0.5rem;
+}
+.field label{
+    font-size: 0.9rem;
+    padding-bottom: 0.2rem;
+    color: #696969;
+}
+.field input{
+    font-size: 1.1rem;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+    border: 2px solid  #696969;
+    border-radius: 5px;
+}
+.field select{
+    font-size: 1.1rem;
+    width: 14rem;
+    height: 2.2rem;
+    padding-left: 0.5rem;
+    border: 2px solid  #696969;
+    border-radius: 5px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 0.7rem;
+}
+.textbox label{
+    font-size: 0.9rem;
+    padding-bottom: 0.2rem;
+    color: #696969;
+}
+textarea{
+   font-size: 1.1rem; 
+   max-width: 100%;
+   height: 5rem;
+   max-height: 15rem;
+   padding-top: 0.5rem;
+   padding-left: 0.5rem;
+   border: 2px solid  #696969;
+   border-radius: 5px;
+
+}
+.terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-size: 1rem;
+    padding-bottom: 0.rem;
+    color: #696969;
+}
+.terminos p{
+    padding-left: 1rem;
+}
+.botones{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    
+}
+.botones input{
+    margin: 1rem;
+    width: 8rem;
+    height: 2.2rem;
+    border: 2px solid  #696969;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    
+}
+.botones input:hover{
+    background-color: white;
+    color: #696969;
+}
+.botonaceptar{
+    color:white;
+    background-color:#7D527A ;
+    font-size: 1rem;
+    
+    
+}
+.botonreset{
+    color:white;
+    background-color:#7D527A ;
+    font-size: 1rem;
+    
+    
+}
+.botonaceptar:hover{
+    background-color: white;
+    color: #696969;
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #232323;
+    color: white;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+   
+}
+
+
+
+
+
+
+
+
