@@ -314,12 +314,13 @@ textarea{
     align-items: center;
     width: 20rem;
     font-size: 1rem;
-    padding-bottom: 0.rem;
-    color: #696969;
+    
 }
+
 .terminos p{
     padding-left: 1rem;
 }
+
 .botones{
     display: flex;
     justify-content:center;
