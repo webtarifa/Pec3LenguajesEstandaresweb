@@ -11,7 +11,7 @@ header{
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-image: url(img/header_image.jpg);
+    background-image: url(/img/header_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ p{
     width: 1.5em;
     height: 1.5em;
     background-size: 1.5em;
-    background-image: url(img/comillas.svg);
+    background-image: url(/img/comillas.svg);
     background-repeat: no-repeat;
     
     
