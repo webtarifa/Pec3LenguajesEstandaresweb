@@ -160,6 +160,7 @@ blockquote p{
 }
 .contenedorPiePagina{
     width:1000px ;
+    margin: auto;
 }
 .piePagina{
     margin: 0 auto;
