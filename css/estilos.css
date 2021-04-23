@@ -66,7 +66,11 @@ h2{
 .contenedorPrincipal{
     margin: 0 auto;
     width: 100%;
+    /* max-width: 1000px; */
+}
+.contenedorGuia{
     max-width: 1000px;
+    margin: auto;
 }
 p{
     padding-top: 1rem;
