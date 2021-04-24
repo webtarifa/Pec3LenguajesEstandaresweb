@@ -143,18 +143,19 @@ blockquote p {
   margin-top: 60px;
 }
 .editarVideo dd {
-  padding: 40px;
+  padding: 30px;
   color: white;
 }
 .editarVideo span{
-  padding-top: 50px;
+  padding-top: 10px;
   display: block;
 }
 .imagenVideo {
+  width: 360px;
   float: left;
-  padding-left: 50px;
-  padding-right: 60px;
-  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 .contenedorVideo {
