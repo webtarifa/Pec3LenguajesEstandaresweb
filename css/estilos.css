@@ -133,15 +133,18 @@ blockquote p {
   padding-top: 1em;
   text-align: center;
 }
-.editarVideo span {
+/* Lista de definicion */
+.editarVideo dt {
   color: goldenrod;
   display: block;
   padding-left: 70px;
   margin-top: 60px;
 }
-.editarVideo p {
+.editarVideo dd {
   padding: 40px;
+  color: white;
 }
+
 .imagenVideo {
   float: left;
   padding-left: 70px;
