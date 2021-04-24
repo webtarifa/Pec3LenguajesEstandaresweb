@@ -128,23 +128,27 @@ blockquote p {
   margin: 0 auto;
   margin-top: 50px;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 .editarVideo h2 {
-  padding-top: 1em;
+  padding-top: 2em;
   text-align: center;
 }
 /* Lista de definicion */
 .editarVideo dt {
   color: goldenrod;
   display: block;
-  padding-left: 70px;
+  padding-left: 40px;
   margin-top: 60px;
 }
 .editarVideo dd {
   padding: 40px;
   color: white;
 }
-
+.editarVideo span{
+  display: block;
+}
 .imagenVideo {
   float: left;
   padding-left: 70px;
@@ -159,7 +163,7 @@ blockquote p {
 }
 
 .nuevo {
-  padding-bottom: 40px;
+  padding-bottom: 70px;
 }
 /* Contenedor Pie de página */
 .contenedorPiePagina {
