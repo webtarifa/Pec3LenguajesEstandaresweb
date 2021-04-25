@@ -223,12 +223,11 @@ td span {
   color: #2ca01c;
 }
 /*Pseudoclase de Css coincide con uno o más elementos en función de su posición entre un grupo de hermanos. */
-tr:nth-child(1) > td {
+tr:nth-child(-n+2) > th {
   background-color: #92a4a6;
-}
-tr:nth-child(2) > td {
-  background-color: #92a4a6;
-}
+  color: black;
+  font-weight: 500;
+} 
 
 /* Contenedor formulario */
 .contenedorFormulario {
